@@ -9,8 +9,16 @@ html {
     box-sizing: inherit;
 }
 
+:root{
+    --svart: #000000;
+    --hvit: #FFFFFF;
+    --gråtone: #D3D3D3;
+    --mørkere-gråtone: #A9A9A9;
+    --mørkest-gråtone: #36454F;
+}
+
 body {
-    background-color: #D3D3D3;
+    background-color: var(--gråtone);
     min-height: 100vh;
     display: grid;
     grid-auto-flow: row;
@@ -22,7 +30,7 @@ body {
 }
 
 body > header {
-    background-color: #36454F;
+    background-color: var(--mørkest-gråtone);
     grid-area: header;
     display: flex;
     justify-content: space-between;
@@ -42,7 +50,7 @@ body > main {
 }
 
 body > footer {
-    background-color: #36454F;
+    background-color: var(--mørkest-gråtone);
     grid-area: footer;
     display: flex;
     justify-content: space-between;
@@ -77,37 +85,38 @@ body > footer {
 .logo-tekst {
     font-size: 60px;
     margin-left: 50px;
-    color: whitesmoke;
+    color: var(--hvit);
 }
 
 .logo-tekst:hover {
-    text-shadow: 0px 0px 10px #D3D3D3;
+    text-shadow: 0px 0px 10px var(--mørkere-gråtone);
 }
 
 .meny-wrapper a,
 .meny-wrapper a:visited {
     text-decoration: none;
-    color: whitesmoke;
+    color: var(--hvit);
     font-size: 20px;
 }
 
 .meny-wrapper a:hover {
-    color: #D3D3D3;
+    color: var(--gråtone);
 }
 
 .blogg-wrapper {
     max-width: 1200px;
-    color: #000000;
+    color: var(--svart);
 }
 
 .blogg-wrapper article {
     margin-bottom: 40px;
     padding: 40px;
-    background-color: #FFFFFF;
+    background-color: var(--hvit);
     border-radius: 20px;
 }
 
 .blogg-wrapper article p {
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .blogg-wrapper article p:not(:last-of-type) {
@@ -129,17 +138,17 @@ footer {
 .til-toppen-knapp {
     cursor: pointer;
     width: 100%;
-    color: #FFFFFF;
+    color: var(--hvit);
 }
 
 .til-toppen-knapp:hover {
-    color: #D3D3D3;
+    color: var(--gråtone);
 }
 
 .form-wrapper {
     width: 100%;
     max-width: 1200px;
-    background-color: #36454F;
+    background-color: var(--mørkest-gråtone);
     padding: 40px;
     border-radius: 20px;
 }
@@ -151,7 +160,7 @@ footer {
 
 .form-wrapper h1 {
     margin-bottom: 30px;
-    color: #FFFFFF;
+    color: var(--hvit);
 }
 
 .form-wrapper form input[type="text"],
@@ -171,14 +180,14 @@ textarea:active {
 }
 
 .form-wrapper form input[type="submit"] {
-    color: #000000;
-    background-color:  #A9A9A9;
+    color: var(--svart);
+    background-color:  var(--mørkere-gråtone);
     border: 0px;
     cursor: pointer;
 }
 
 .form-wrapper form input[type="submit"]:hover {
-    background-color: #D3D3D3;
+    background-color: var(--gråtone);
 }
 
 .form-wrapper form input:not(:last-of-type) {
@@ -193,6 +202,6 @@ textarea:active {
 }
 
 .form-wrapper form label {
-    color: #ffffff;
+    color: var(--hvit);
     margin-bottom: 5px;
 }
