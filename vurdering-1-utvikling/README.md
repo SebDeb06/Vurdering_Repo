@@ -10,7 +10,7 @@
 8. [X] Velg en font som passer til tema. Bruk Google eller Creative Cloud fonter.
 9. [X] Før fargene inn som variabler i CSS filen `nettside/assets/style.css`
 10. [X] Bruk variablene til å få skape et helhetlig uttrykk på nettsiden.  
-11. [ ] Nettsiden skal tilpasses bruk på datamaskin-skjerm med størrelse 1920&#xd7;1080 (bredde&#xd7;høyde)
+11. [X] Nettsiden skal tilpasses bruk på datamaskin-skjerm med størrelse 1920&#xd7;1080 (bredde&#xd7;høyde)
 12. [ ] Nettsiden skal tilpasses mobil med størrelse 414&#xd7;896 (bredde&#xd7;høyde)
 
 ---

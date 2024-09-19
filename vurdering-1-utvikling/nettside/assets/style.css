@@ -24,7 +24,7 @@ body {
     min-height: 100vh;
     display: grid;
     grid-auto-flow: row;
-    grid-template-rows: 160px auto 80px;
+    grid-template-rows: 140px auto 80px;
     grid-template-areas:
         "header"
         "main"
@@ -157,7 +157,6 @@ footer {
 }
 
 .form-wrapper {
-    
     width: 100%;
     max-width: 1200px;
     background-color: var(--mørkest-gråtone);
@@ -220,3 +219,51 @@ textarea:active {
     color: var(--hvit);
     margin-bottom: 5px;
 }
+
+@media screen and (max-width: 414px) and (max-height: 896px) {
+
+    .form-wrapper {
+        width: 100%;
+        max-width: 1000px;
+        background-color: var(--mørkest-gråtone);
+        padding: 30px;
+        border-radius: 20px;
+    }
+
+    body > header {
+        max-width: 414px;
+        width: 100vh;
+    }
+
+    body > main {
+        max-width: 414px;
+        width: 100vh;
+    }
+
+    body > footer{
+        max-width: 414px;
+        width: 100vh;
+    }
+
+    .logo-tekst {
+        font-size: 35px;
+        margin-left: 10px;
+        color: var(--hvit);
+    }
+
+    .logo-wrapper img {
+        height: 70px;
+        border-radius: 100%;
+        filter: brightness(1000%);
+        transition: 300ms ease-in-out;
+    }
+
+    .meny-wrapper a,
+    .meny-wrapper a:visited {
+        text-decoration: none;
+        color: var(--hvit);
+        font-size: 15px;
+        
+    }
+
+    }
