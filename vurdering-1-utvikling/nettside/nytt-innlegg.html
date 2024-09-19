@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="no">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Egils skoledagbok</title>
+        <link rel="stylesheet" href="assets/style.css" />
+        <script src="assets/script.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <div class="logo-wrapper">
+                <img src="assets/logo.png" alt="Egil logo" />
+                <div class="logo-tekst">Egils skoledagbok</div>
+            </div>
+            <div class="meny-wrapper">
+                <a href="index.html">Til forsiden</a>
+            </div>
+        </header>
+        <main>
+            <div class="form-wrapper">
+                <h1>Skrive nytt innlegg!</h1>
+                <form class="nytt-innlegg-form" action="index.html" method="get">
+                    <label for="overskrift">Overskrift</label>
+                    <input type="text" name="overskrift" id="overskrift" />
+                    <label for="innlegg">Tekst</label>
+                    <textarea name="innlegg" id="innlegg"></textarea>
+                    <input type="submit" value="Publisere" />
+                </form>
+            </div>
+        </main>
+        <footer id="footer"></footer>
+    </body>
+</html>

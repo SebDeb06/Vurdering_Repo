@@ -1,0 +1,198 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #245291;
+    min-height: 100vh;
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-rows: 160px auto 80px;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+}
+
+body > header {
+    background-color: #591063;
+    grid-area: header;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-style: none;
+    position: sticky;
+    top: -1px;
+    z-index: 1000;
+}
+
+body > main {
+    grid-area: main;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body > footer {
+    background-color: #d91229;
+    grid-area: footer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body > header,
+body > main,
+body > footer {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.logo-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo-wrapper img {
+    height: 110px;
+    border-radius: 100%;
+    filter: brightness(1000%);
+    transition: 300ms ease-in-out;
+}
+
+.logo-wrapper img:hover {
+    transform: rotate(5deg);
+    transition: 300ms ease-in-out;
+}
+
+.logo-tekst {
+    font-size: 60px;
+    margin-left: 50px;
+    color: whitesmoke;
+}
+
+.logo-tekst:hover {
+    text-shadow: 0px 0px 10px orange;
+}
+
+.meny-wrapper a,
+.meny-wrapper a:visited {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.meny-wrapper a:hover {
+    color: firebrick;
+}
+
+.blogg-wrapper {
+    max-width: 1200px;
+    color: #919392;
+}
+
+.blogg-wrapper article {
+    margin-bottom: 40px;
+    padding: 40px;
+    background-color: #fa9922;
+    border-radius: 20px;
+}
+
+.blogg-wrapper article p {
+}
+
+.blogg-wrapper article p:not(:last-of-type) {
+    margin-bottom: 20px;
+}
+
+.blogg-wrapper article h3 {
+    font-size: 25px;
+}
+
+.blogg-wrapper article .blogg-innlegg-tidspunkt {
+    margin-bottom: 30px;
+}
+
+footer {
+    text-align: center;
+}
+
+.til-toppen-knapp {
+    cursor: pointer;
+    width: 100%;
+    color: #991182;
+}
+
+.til-toppen-knapp:hover {
+    color: red;
+}
+
+.form-wrapper {
+    width: 100%;
+    max-width: 1200px;
+    background-color: #ff0000;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.form-wrapper form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-wrapper h1 {
+    margin-bottom: 30px;
+    color: #dada99;
+}
+
+.form-wrapper form input[type="text"],
+.form-wrapper form input[type="submit"] {
+    height: 41px;
+}
+
+.form-wrapper form input:focus,
+.form-wrapper form input:active,
+textarea:focus,
+textarea:active {
+    outline: 1px solid #294919;
+}
+
+.form-wrapper form input[type="text"] {
+    padding-left: 10px;
+}
+
+.form-wrapper form input[type="submit"] {
+    color: green;
+    background-color: #00ffff;
+    border: 0px;
+    cursor: pointer;
+}
+
+.form-wrapper form input[type="submit"]:hover {
+    background-color: #0000ff;
+}
+
+.form-wrapper form input:not(:last-of-type) {
+    margin-bottom: 20px;
+}
+
+.form-wrapper form textarea {
+    height: 200px;
+    margin-bottom: 20px;
+    padding: 10px;
+    resize: none;
+}
+
+.form-wrapper form label {
+    color: #ffffff;
+    margin-bottom: 5px;
+}
