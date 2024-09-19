@@ -12,15 +12,15 @@ html {
 }
 
 :root{
-    --svart: #000000;
-    --hvit: #FFFFFF;
-    --gråtone: #D3D3D3;
-    --mørkere-gråtone: #A9A9A9;
-    --mørkest-gråtone: #36454F;
+    --Tekstfarge: #000000;
+    --Bakgrunnsfarge: #FFFFFF;
+    --Hovedbakgrunnsfarge: #D3D3D3;
+    --Knappfarge: #A9A9A9;
+    --Hovedfarge: #36454F;
 }
 
 body {
-    background-color: var(--gråtone);
+    background-color: var(--Hovedbakgrunnsfarge);
     min-height: 100vh;
     display: grid;
     grid-auto-flow: row;
@@ -34,7 +34,7 @@ body {
 body > header {
     font-family: "Rubik", sans-serif;
     font-weight: 500;
-    background-color: var(--mørkest-gråtone);
+    background-color: var(--Hovedfarge);
     grid-area: header;
     display: flex;
     justify-content: space-between;
@@ -58,7 +58,7 @@ body > main {
 
 body > footer {
 
-    background-color: var(--mørkest-gråtone);
+    background-color: var(--Hovedfarge);
     grid-area: footer;
     display: flex;
     justify-content: space-between;
@@ -93,33 +93,33 @@ body > footer {
 .logo-tekst {
     font-size: 60px;
     margin-left: 50px;
-    color: var(--hvit);
+    color: var(--Bakgrunnsfarge);
 }
 
 .logo-tekst:hover {
-    text-shadow: 0px 0px 10px var(--mørkere-gråtone);
+    text-shadow: 0px 0px 10px var(--Knappfarge);
 }
 
 .meny-wrapper a,
 .meny-wrapper a:visited {
     text-decoration: none;
-    color: var(--hvit);
+    color: var(--Bakgrunnsfarge);
     font-size: 20px;
 }
 
 .meny-wrapper a:hover {
-    color: var(--gråtone);
+    color: var(--Hovedbakgrunnsfarge);
 }
 
 .blogg-wrapper {
     max-width: 1200px;
-    color: var(--svart);
+    color: var(--Tekstfarge);
 }
 
 .blogg-wrapper article {
     margin-bottom: 40px;
     padding: 40px;
-    background-color: var(--hvit);
+    background-color: var(--Bakgrunnsfarge);
     border-radius: 20px;
 }
 
@@ -149,17 +149,17 @@ footer {
     font-weight: 400;
     cursor: pointer;
     width: 100%;
-    color: var(--hvit);
+    color: var(--Bakgrunnsfarge);
 }
 
 .til-toppen-knapp:hover {
-    color: var(--gråtone);
+    color: var(--Hovedbakgrunnsfarge);
 }
 
 .form-wrapper {
     width: 100%;
     max-width: 1200px;
-    background-color: var(--mørkest-gråtone);
+    background-color: var(--Hovedfarge);
     padding: 40px;
     border-radius: 20px;
 }
@@ -171,7 +171,7 @@ footer {
 
 .form-wrapper h1 {
     margin-bottom: 30px;
-    color: var(--hvit);
+    color: var(--Bakgrunnsfarge);
 }
 
 .form-wrapper form input[type="text"],
@@ -193,14 +193,14 @@ textarea:active {
 }
 
 .form-wrapper form input[type="submit"] {
-    color: var(--svart);
-    background-color:  var(--mørkere-gråtone);
+    color: var(--Tekstfarge);
+    background-color:  var(--Knappfarge);
     border: 0px;
     cursor: pointer;
 }
 
 .form-wrapper form input[type="submit"]:hover {
-    background-color: var(--gråtone);
+    background-color: var(--Hovedbakgrunnsfarge);
 }
 
 .form-wrapper form input:not(:last-of-type) {
@@ -215,7 +215,7 @@ textarea:active {
 }
 
 .form-wrapper form label {
-    color: var(--hvit);
+    color: var(--Bakgrunnsfarge);
     margin-bottom: 5px;
 }
 
@@ -224,7 +224,7 @@ textarea:active {
     .form-wrapper {
         width: 100%;
         max-width: 1000px;
-        background-color: var(--mørkest-gråtone);
+        background-color: var(--Hovedfarge);
         padding: 30px;
         border-radius: 20px;
     }
@@ -247,7 +247,7 @@ textarea:active {
     .logo-tekst {
         font-size: 35px;
         margin-left: 10px;
-        color: var(--hvit);
+        color: var(--Bakgrunnsfarge);
     }
 
     .logo-wrapper img {
@@ -260,7 +260,7 @@ textarea:active {
     .meny-wrapper a,
     .meny-wrapper a:visited {
         text-decoration: none;
-        color: var(--hvit);
+        color: var(--Bakgrunnsfarge);
         font-size: 15px;
         
     }
