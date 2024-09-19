@@ -1,10 +1,10 @@
 # Oppgave
 
 1. [x] Last ned og pakk ut mappen med oppgavene fra ItsLearning
-2. [ ] Opprett ett GitHub-repo der filene i denne mappen er med.
-3. [ ] Tenk gjennom versjonskontroll og at det er en av tingene som vil bli vurdert
-4. [ ] Del repoet med `EJDahle` og med `runelanghelle`
-5. [ ] Sørg for at repoet er åpnet i VS Code
+2. [X] Opprett ett GitHub-repo der filene i denne mappen er med.
+3. [X] Tenk gjennom versjonskontroll og at det er en av tingene som vil bli vurdert
+4. [X] Del repoet med `EJDahle` og med `runelanghelle`
+5. [X] Sørg for at repoet er åpnet i VS Code
 6. [ ] Velg tema fra temalisten under - du kan velge egne farger til fargepaletten, men det må passe til temaet du velger. Du kan ha flere eller færre farger. Husk at endring av lightness i HSL-instillingene regnes som samme farge.
 7. [ ] Før fargene du velger inn i `stilvalg/README.md`. Pass på at svg-filene `stilvalg/svg/farge1-5` med rette farger. Denne filen skal alltid være oppdatert med rett fargepalett.
 8. [ ] Velg en font som passer til tema. Bruk Google eller Creative Cloud fonter.

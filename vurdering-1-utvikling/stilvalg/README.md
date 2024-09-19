@@ -8,10 +8,10 @@
             <img src="svg/farge1.svg" alt="Fargeboks med kode" style="vertical-align: middle;">
         </td>
         <td style="vertical-align: middle; padding-left: 10px;">
-            #RRG GBBAA
+            #000000
         </td>
         <td style="vertical-align: middle; padding-left: 10px;">
-            Fargenavn
+            Svart
         </td>
         <td>--VARIABELNAVN</td>
     </tr>
@@ -21,10 +21,10 @@
             <img src="svg/farge2.svg" alt="Fargeboks med kode" style="vertical-align: middle;">
         </td>
         <td style="vertical-align: middle; padding-left: 10px;">
-            #RRGGBBAA
+            #FFFFFF
         </td>
         <td style="vertical-align: middle; padding-left: 10px;">
-            Fargenavn
+            Hvit
         </td>
         <td>--VARIABELNAVN</td>
     </tr>
@@ -34,10 +34,10 @@
             <img src="svg/farge3.svg" alt="Fargeboks med kode" style="vertical-align: middle;">
         </td>
         <td style="vertical-align: middle; padding-left: 10px;">
-            #RRGGBBAA
+            #D3D3D3
         </td>
         <td style="vertical-align: middle; padding-left: 10px;">
-            Fargenavn
+            Gråtone
         </td>
         <td>--VARIABELNAVN</td>
     </tr>
@@ -47,10 +47,10 @@
             <img src="svg/farge4.svg" alt="Fargeboks med kode" style="vertical-align: middle;">
         </td>
         <td style="vertical-align: middle; padding-left: 10px;">
-            #RRGGBBAA
+            #A9A9A9
         </td>
         <td style="vertical-align: middle; padding-left: 10px;">
-            Fargenavn
+            Mørkere Gråtone
         </td>
         <td>--VARIABELNAVN</td>
     </tr>
@@ -60,10 +60,10 @@
             <img src="svg/farge2.svg" alt="Fargeboks med kode" style="vertical-align: middle;">
         </td>
         <td style="vertical-align: middle; padding-left: 10px;">
-            #RRGGBBAA
+            #36454F
         </td>
         <td style="vertical-align: middle; padding-left: 10px;">
-            Fargenavn
+            Mørkest Gråtone
         </td>
         <td>--VARIABELNAVN</td>
     </tr>
