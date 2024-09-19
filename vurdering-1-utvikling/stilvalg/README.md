@@ -13,7 +13,7 @@
         <td style="vertical-align: middle; padding-left: 10px;">
             Svart
         </td>
-        <td>--VARIABELNAVN</td>
+        <td>--Tekstfarge</td>
     </tr>
     <tr>
         <td>
@@ -26,7 +26,7 @@
         <td style="vertical-align: middle; padding-left: 10px;">
             Hvit
         </td>
-        <td>--VARIABELNAVN</td>
+        <td>--Bakgrunnsfarge</td>
     </tr>
     <tr>
         <td>
@@ -39,7 +39,7 @@
         <td style="vertical-align: middle; padding-left: 10px;">
             Gråtone
         </td>
-        <td>--VARIABELNAVN</td>
+        <td>--Hovedbakgrunnsfarge</td>
     </tr>
     <tr>
         <td>
@@ -52,7 +52,7 @@
         <td style="vertical-align: middle; padding-left: 10px;">
             Mørkere Gråtone
         </td>
-        <td>--VARIABELNAVN</td>
+        <td>--Knappfarge</td>
     </tr>
     <tr>
         <td>
@@ -65,7 +65,7 @@
         <td style="vertical-align: middle; padding-left: 10px;">
             Mørkest Gråtone
         </td>
-        <td>--VARIABELNAVN</td>
+        <td>--Hovedfarge</td>
     </tr>
 </table>
 
