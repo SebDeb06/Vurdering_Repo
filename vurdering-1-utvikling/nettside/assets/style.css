@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 html {
     box-sizing: border-box;
 }
@@ -30,6 +32,8 @@ body {
 }
 
 body > header {
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
     background-color: var(--mørkest-gråtone);
     grid-area: header;
     display: flex;
@@ -42,14 +46,18 @@ body > header {
 }
 
 body > main {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
     grid-area: main;
     margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 body > footer {
+
     background-color: var(--mørkest-gråtone);
     grid-area: footer;
     display: flex;
@@ -116,7 +124,8 @@ body > footer {
 }
 
 .blogg-wrapper article p {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
 }
 
 .blogg-wrapper article p:not(:last-of-type) {
@@ -136,6 +145,8 @@ footer {
 }
 
 .til-toppen-knapp {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
     cursor: pointer;
     width: 100%;
     color: var(--hvit);
@@ -146,6 +157,7 @@ footer {
 }
 
 .form-wrapper {
+    
     width: 100%;
     max-width: 1200px;
     background-color: var(--mørkest-gråtone);
@@ -159,12 +171,15 @@ footer {
 }
 
 .form-wrapper h1 {
+    
     margin-bottom: 30px;
     color: var(--hvit);
 }
 
 .form-wrapper form input[type="text"],
 .form-wrapper form input[type="submit"] {
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
     height: 41px;
 }
 
